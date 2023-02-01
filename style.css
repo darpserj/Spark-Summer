@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Kamber";
+  src: url(./src/Kamber-Bold.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Kamber";
+  src: url(./src/Kamber-Regular.otf);
+  font-weight: normal;
+}
+
+p::-webkit-scrollbar {
+  display: none;
+}
