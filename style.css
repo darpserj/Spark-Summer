@@ -18,6 +18,26 @@ p::-webkit-scrollbar {
   display: none;
 }
 
+.google-maps {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+#hero {
+  background-image: url("./src/mtkelly.webp");
+  background-size: cover;
+  background-position: center;
+}
+
 #map {
   background-image: url("./src/mtkelly.webp");
   background-size: cover;
@@ -25,5 +45,7 @@ p::-webkit-scrollbar {
 }
 
 #timetable {
-  background-image: url("./src/kemp.png");
+  background-image: url("./src/timetable.webp");
+  background-size: cover;
+  background-position: center;
 }
