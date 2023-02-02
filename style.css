@@ -17,3 +17,13 @@
 p::-webkit-scrollbar {
   display: none;
 }
+
+#map {
+  background-image: url("./src/mtkelly.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+#timetable {
+  background-image: url("./src/kemp.png");
+}
