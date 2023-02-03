@@ -14,6 +14,12 @@
   font-weight: normal;
 }
 
+@font-face {
+  font-family: "Work Sans";
+  src: url(./src/WorkSans-Regular.woff2) format("woff2"), url(./src/WorkSans-Regular.woff) format("woff");
+  font-weight: normal;
+}
+
 p::-webkit-scrollbar {
   display: none;
 }
@@ -32,20 +38,39 @@ p::-webkit-scrollbar {
   height: 100% !important;
 }
 
-#hero {
-  background-image: url("./src/mtkelly.webp");
-  background-size: cover;
-  background-position: center;
-}
-
+#hero,
 #map {
-  background-image: url("./src/mtkelly.webp");
+  background-image: url("./src/mtkelly_sm.webp");
   background-size: cover;
   background-position: center;
+  @media screen(md) {
+    background-image: url("./src/mtkelly_md.webp");
+  }
+  @media screen(lg) {
+    background-image: url("./src/mtkelly_lg.webp");
+  }
+  @media screen(xl) {
+    background-image: url("./src/mtkelly_xl.webp");
+  }
+  @media screen(2xl) {
+    background-image: url("./src/mtkelly_2xl.webp");
+  }
 }
 
 #timetable {
-  background-image: url("./src/timetable.webp");
+  background-image: url("./src/timetable_sm.webp");
   background-size: cover;
   background-position: center;
+  @media screen(md) {
+    background-image: url("./src/timetable_md.webp");
+  }
+  @media screen(lg) {
+    background-image: url("./src/timetable_lg.webp");
+  }
+  @media screen(xl) {
+    background-image: url("./src/timetable_xl.webp");
+  }
+  @media screen(2xl) {
+    background-image: url("./src/timetable_2xl.webp");
+  }
 }
