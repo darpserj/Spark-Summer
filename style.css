@@ -4,13 +4,13 @@
 
 @font-face {
   font-family: "Kamber";
-  src: url(./src/Kamber-Bold.otf);
+  src: url(./src/Kamber-Bold.otf) format("opentype");
   font-weight: bold;
 }
 
 @font-face {
   font-family: "Kamber";
-  src: url(./src/Kamber-Regular.otf);
+  src: url(./src/Kamber-Regular.woff) format("woff"), url(./src/Kamber-Regular.otf) format("opentype");
   font-weight: normal;
 }
 
